@@ -8,7 +8,6 @@ import java.util.Arrays;
 import java.util.List;
 
 @RestController
-//@CrossOrigin(origins = "http://localhost:4200")
 @RequestMapping("/api/jobs")
 public class JobController {
     @GetMapping("/")
